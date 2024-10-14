@@ -55,8 +55,11 @@ step3 : test plugin-api-breaker @ Terminal
 curl http://127.0.0.1:9080/api/products -i
 curl http://127.0.0.1:9080/api/products -i
 curl http://127.0.0.1:9080/api/products -i
+curl http://127.0.0.1:9080/api/products -i
 
 ```
+**re-produce api-breaker validate RESULT**
+![image](https://hackmd.io/_uploads/HJVVO2qJyl.png)
 
 Sample output:
 
