@@ -20,6 +20,7 @@ namespace ProductApi.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
+            throw new Exception();
             return Ok(_productsService.GetAll());
         }
     }
